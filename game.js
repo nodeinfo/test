@@ -39,7 +39,7 @@ function addGame(game) {
   game.currentBlackCard = "";
   game.isReadyForScoring = false;
   game.isReadyForReview = false;
-  game.pointsToWin = 5;
+  game.pointsToWin = 20;
   gameList.push(game);
   return game;
 }

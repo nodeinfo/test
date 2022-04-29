@@ -111,7 +111,7 @@ describe('multi-libs', function() {
           expect(currentGame.isReadyForReview).toBe(true);
         });
 
-        it('player is given awesome points', function() {
+        it('player is given points', function() {
           expect(currentGame.players[1].awesomePoints).toBe(1);
         });
 

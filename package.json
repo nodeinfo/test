@@ -1,14 +1,10 @@
 {
   "name": "nodejs-against-humanity",
-  "version": "1.0.0-13",
+  "version": "0.0.1",
   "description": "Cards Against Humanities implemented in NodeJS",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/amirrajan/nodejs-against-humanity.git"
   },
   "dependencies": {
     "express": "~3.0.1",

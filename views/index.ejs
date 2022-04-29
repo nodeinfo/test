@@ -2,7 +2,7 @@
 <html lang="en">
    <head>
     <meta charset="utf-8">
-    <title>NodeJS Against Humanity</title>
+    <title>Cards</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
           </a>
           
-          <a class="brand">NodeJS Against Humanity</a>
+          <a class="brand">Cards</a>
           
           <div class="nav-collapse collapse">
             <ul class="nav">
@@ -50,16 +50,12 @@
     </div>
     <div class="container">
       <div class="row">
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">
-          <img alt="Creative Commons License" style="display: block; margin-left: auto; margin-right: auto;" src="http://i.creativecommons.org/l/by-nc-sa/2.0/88x31.png" /></a>
           <br />
-          This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons Attribution-NonCommercial-ShareAlike 2.0 Generic License</a>.
-          <br />
-          This site is not affliated in any way with the official Cards Against Humanities.
+          This site is not affliated in any way with the official Cards Against Humanities. ie: Don't sue me assholes
       </div>
       <hr />
       <div class="row">
-        Cards Against Humanity written in NodeJS. You need 4 players for a game to start. <a href="https://github.com/amirrajan/nodejs-against-humanity">The source is here. I accept pull requests.</a>.
+        Cards Against Humanity but thats copyright so just "cards". You need 4 players for a game to start. Do you even have that many friends?
       </div>
       <hr />
       <h3>Click below to join a game (or use the Create Game link at the top to start one)</h3>
@@ -99,6 +95,8 @@
               var name = prompt("what's your name?", "anonymous " + S4());
               if (name.replace(/\s/g, "").length == 0) {
                 name = "anonymous";
+              } else if (name=="olly") {
+                name = "NotTheWedgeman";
               }
 
               var gameId = $(gameElement).find('a').attr('data-gameId');
